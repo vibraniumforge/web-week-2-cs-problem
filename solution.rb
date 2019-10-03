@@ -27,28 +27,6 @@ end
 #     end 
 # end
 
-
-# def sum_two(num, target)
-#     num_hash = {}
-#     i = 0
-#     while i < num.length do
-#         num_hash[i] = num[i]
-#         i+=1
-#     end
-
-#     num_hash.each do |k, v|
-#     	if num_hash.key?(target - k)
-#     		if target - k == k && num_hash[k].length >= 2
-#     			puts num_hash[k][0..1]
-#     		end
-#     		if target - k != k
-# 				puts [num_hash[k][0] , num_hash[target - k][0]].sort  			
-#     		end
-#     	end
-#     end
-    
-# end
-
 nums = [1,2,6,9,10]
 target = 12
 
